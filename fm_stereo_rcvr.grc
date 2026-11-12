@@ -1,16 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.13'?>
 <flow_graph>
   <timestamp>Sun Oct 21 17:12:03 2018</timestamp>
   <block>
     <key>options</key>
     <param>
       <key>author</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>window_size</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>category</key>
@@ -18,11 +17,11 @@
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>description</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>_enabled</key>
@@ -38,7 +37,7 @@
     </param>
     <param>
       <key>generate_options</key>
-      <value>wx_gui</value>
+      <value>qt_gui</value>
     </param>
     <param>
       <key>hier_block_src_path</key>
@@ -54,11 +53,11 @@
     </param>
     <param>
       <key>qt_qss_theme</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>realtime_scheduling</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>run_command</key>
@@ -78,11 +77,11 @@
     </param>
     <param>
       <key>thread_safe_setters</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>title</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>placement</key>
@@ -90,10 +89,10 @@
     </param>
   </block>
   <block>
-    <key>variable_slider</key>
+    <key>variable_qtgui_range</key>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>converver</key>
@@ -116,7 +115,7 @@
       <value>0</value>
     </param>
     <param>
-      <key>grid_pos</key>
+      <key>gui_hint</key>
       <value>(0,0,1,40)</value>
     </param>
     <param>
@@ -136,23 +135,19 @@
       <value>88.1e6</value>
     </param>
     <param>
-      <key>notebook</key>
-      <value></value>
-    </param>
-    <param>
       <key>num_steps</key>
       <value>99</value>
     </param>
     <param>
       <key>style</key>
-      <value>wx.SL_HORIZONTAL</value>
+      <value>QtCore.Qt.Horizontal</value>
     </param>
   </block>
   <block>
-    <key>variable_slider</key>
+    <key>variable_qtgui_range</key>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>converver</key>
@@ -175,7 +170,7 @@
       <value>0</value>
     </param>
     <param>
-      <key>grid_pos</key>
+      <key>gui_hint</key>
       <value>(1,0,1,40)</value>
     </param>
     <param>
@@ -195,23 +190,19 @@
       <value>0</value>
     </param>
     <param>
-      <key>notebook</key>
-      <value></value>
-    </param>
-    <param>
       <key>num_steps</key>
       <value>100</value>
     </param>
     <param>
       <key>style</key>
-      <value>wx.SL_HORIZONTAL</value>
+      <value>QtCore.Qt.Horizontal</value>
     </param>
   </block>
   <block>
     <key>variable</key>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>_enabled</key>
@@ -242,15 +233,15 @@
     </param>
     <param>
       <key>alias</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>affinity</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>_enabled</key>
@@ -285,19 +276,19 @@
     <key>audio_sink</key>
     <param>
       <key>alias</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>affinity</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>device_name</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>_enabled</key>
@@ -332,11 +323,11 @@
     <key>blocks_multiply_const_vxx</key>
     <param>
       <key>alias</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>const</key>
@@ -344,7 +335,7 @@
     </param>
     <param>
       <key>affinity</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>_enabled</key>
@@ -383,11 +374,11 @@
     <key>blocks_multiply_const_vxx</key>
     <param>
       <key>alias</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>const</key>
@@ -395,7 +386,7 @@
     </param>
     <param>
       <key>affinity</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>_enabled</key>
@@ -438,15 +429,15 @@
     </param>
     <param>
       <key>alias</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>affinity</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>cutoff_freq</key>
@@ -509,11 +500,11 @@
     <key>notebook</key>
     <param>
       <key>alias</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>_enabled</key>
@@ -529,7 +520,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>id</key>
@@ -541,7 +532,7 @@
     </param>
     <param>
       <key>notebook</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>style</key>
@@ -552,11 +543,11 @@
     <key>rtlsdr_source</key>
     <param>
       <key>alias</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>ant0</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain0</key>
@@ -596,7 +587,7 @@
     </param>
     <param>
       <key>ant10</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain10</key>
@@ -636,7 +627,7 @@
     </param>
     <param>
       <key>ant11</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain11</key>
@@ -676,7 +667,7 @@
     </param>
     <param>
       <key>ant12</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain12</key>
@@ -716,7 +707,7 @@
     </param>
     <param>
       <key>ant13</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain13</key>
@@ -756,7 +747,7 @@
     </param>
     <param>
       <key>ant14</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain14</key>
@@ -796,7 +787,7 @@
     </param>
     <param>
       <key>ant15</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain15</key>
@@ -836,7 +827,7 @@
     </param>
     <param>
       <key>ant16</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain16</key>
@@ -876,7 +867,7 @@
     </param>
     <param>
       <key>ant17</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain17</key>
@@ -916,7 +907,7 @@
     </param>
     <param>
       <key>ant18</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain18</key>
@@ -956,7 +947,7 @@
     </param>
     <param>
       <key>ant19</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain19</key>
@@ -996,7 +987,7 @@
     </param>
     <param>
       <key>ant1</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain1</key>
@@ -1036,7 +1027,7 @@
     </param>
     <param>
       <key>ant20</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain20</key>
@@ -1076,7 +1067,7 @@
     </param>
     <param>
       <key>ant21</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain21</key>
@@ -1116,7 +1107,7 @@
     </param>
     <param>
       <key>ant22</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain22</key>
@@ -1156,7 +1147,7 @@
     </param>
     <param>
       <key>ant23</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain23</key>
@@ -1196,7 +1187,7 @@
     </param>
     <param>
       <key>ant24</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain24</key>
@@ -1236,7 +1227,7 @@
     </param>
     <param>
       <key>ant25</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain25</key>
@@ -1276,7 +1267,7 @@
     </param>
     <param>
       <key>ant26</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain26</key>
@@ -1316,7 +1307,7 @@
     </param>
     <param>
       <key>ant27</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain27</key>
@@ -1356,7 +1347,7 @@
     </param>
     <param>
       <key>ant28</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain28</key>
@@ -1396,7 +1387,7 @@
     </param>
     <param>
       <key>ant29</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain29</key>
@@ -1436,7 +1427,7 @@
     </param>
     <param>
       <key>ant2</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain2</key>
@@ -1476,7 +1467,7 @@
     </param>
     <param>
       <key>ant30</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain30</key>
@@ -1516,7 +1507,7 @@
     </param>
     <param>
       <key>ant31</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain31</key>
@@ -1556,7 +1547,7 @@
     </param>
     <param>
       <key>ant3</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain3</key>
@@ -1596,7 +1587,7 @@
     </param>
     <param>
       <key>ant4</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain4</key>
@@ -1636,7 +1627,7 @@
     </param>
     <param>
       <key>ant5</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain5</key>
@@ -1676,7 +1667,7 @@
     </param>
     <param>
       <key>ant6</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain6</key>
@@ -1716,7 +1707,7 @@
     </param>
     <param>
       <key>ant7</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain7</key>
@@ -1756,7 +1747,7 @@
     </param>
     <param>
       <key>ant8</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain8</key>
@@ -1796,7 +1787,7 @@
     </param>
     <param>
       <key>ant9</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>bb_gain9</key>
@@ -1836,11 +1827,11 @@
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>affinity</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>args</key>
@@ -1868,67 +1859,67 @@
     </param>
     <param>
       <key>clock_source0</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>time_source0</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>clock_source1</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>time_source1</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>clock_source2</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>time_source2</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>clock_source3</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>time_source3</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>clock_source4</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>time_source4</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>clock_source5</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>time_source5</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>clock_source6</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>time_source6</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>clock_source7</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>time_source7</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>minoutbuf</key>
@@ -1952,7 +1943,7 @@
     </param>
     <param>
       <key>sync</key>
-      <value></value>
+      <value />
     </param>
   </block>
   <block>
@@ -1967,15 +1958,15 @@
     </param>
     <param>
       <key>alias</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>affinity</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>dc_offset_mode</key>
@@ -2043,7 +2034,7 @@
     </param>
   </block>
   <block>
-    <key>wxgui_fftsink2</key>
+    <key>qtgui_freq_sink_x</key>
     <param>
       <key>avg_alpha</key>
       <value>0</value>
@@ -2053,20 +2044,20 @@
       <value>False</value>
     </param>
     <param>
-      <key>baseband_freq</key>
+      <key>center_freq</key>
       <value>freq</value>
     </param>
     <param>
       <key>alias</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>affinity</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>_enabled</key>
@@ -2090,7 +2081,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>id</key>
@@ -2130,7 +2121,7 @@
     </param>
     <param>
       <key>win_size</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>win</key>
@@ -2146,7 +2137,7 @@
     </param>
   </block>
   <block>
-    <key>wxgui_fftsink2</key>
+    <key>qtgui_freq_sink_x</key>
     <param>
       <key>avg_alpha</key>
       <value>0</value>
@@ -2156,20 +2147,20 @@
       <value>False</value>
     </param>
     <param>
-      <key>baseband_freq</key>
+      <key>center_freq</key>
       <value>0</value>
     </param>
     <param>
       <key>alias</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>comment</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>affinity</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>_enabled</key>
@@ -2193,7 +2184,7 @@
     </param>
     <param>
       <key>grid_pos</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>id</key>
@@ -2233,7 +2224,7 @@
     </param>
     <param>
       <key>win_size</key>
-      <value></value>
+      <value />
     </param>
     <param>
       <key>win</key>

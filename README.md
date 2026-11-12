@@ -19,4 +19,17 @@ RDS and SCA.
 
 Thank you John!
 
+
+## Conversion:
+Using [GNU Radio Companion File Converter](https://github.com/khanfar/GNU-RADIO-converter)
+the flowgraphs were translated from v3.7 to v3.10. Note that this is an initial translation
+only, there are still missing blocks at this time.
+
+Thank you M Khanfar!
+
+
+# Credits:
+* [John E. Post](https://www.nutsvolts.com/magazine/article/fm-reception-with-the-gnu-radio-companion)
+* [khanfar](https://github.com/khanfar/GNU-RADIO-converter)
+
 Onno VK6FLAB
